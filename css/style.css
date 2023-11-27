@@ -1,0 +1,424 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+.center{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.header{
+	width: 100%;
+	padding:0 2%;
+	height: 60px;
+	background-color: #160A58;
+}
+
+.header img{
+	width: 50px;
+	margin: 5px;
+	margin-left: 80px;
+}
+
+.conteiner-banner{
+	width: 100%;
+	padding:0 2%;
+	height: 557px;
+	background-image:url('../imagens/frame.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.conteiner-banner > .center{
+	height: 100%;
+}
+
+.form{
+	padding: 20px;
+	width: 400px;
+	height: calc(100% + 10px);
+	float: right;
+	position: relative;
+	top: -15px;
+	border: 10px solid #0F29BD;
+	background-color:#0F29BD;
+	border-radius: 80px;
+	box-shadow:-35px 20px 17px 0px rgba(177, 217, 20,0.7);
+}
+
+.form:hover{
+	transition: 3s;
+   box-shadow:-35px 20px 17px 0px rgba(0, 0, 0, 1.0);
+}
+.form h2{
+	font-weight: normal;
+	color: #999999;
+	font-size: 22px;
+	text-align: center;
+}
+
+.input-container{
+	margin-top: 20px;
+}
+
+.input-container span,.form p{
+	display: inline-block;
+	width: 100%;
+	color:#bbbbbb;
+	font-size: 17px;
+}
+
+.form p{
+	margin: 20px;
+}
+
+.input-container input[type=text]{
+	margin-top: 10px;
+	width: 344px;
+	height: 55px;
+	border: 2px solid #ccc;
+	border-radius: 90px;
+}
+
+
+.form .input-submit-container{
+	text-align: center;
+}
+
+.form input[type="submit"]{
+	color: floralwhite;
+	font-size: 25px;
+	width: 280px;
+	height: 56px;
+	background-color: #050830;
+	border-radius: 4px 50px 50px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	cursor: pointer;
+	border-bottom: 5px solid #4a5097;
+}
+
+.form input[type="submit"]:hover{
+   background-color: #6A60CC;
+   text-decoration: none;
+
+}
+
+.form input:hover{
+	transition: 3s;
+	text-decoration: underline;
+   color: #81DB86;
+}
+
+.container-list{
+  cursor: pointer;
+  margin-top: 80px;
+	margin-left: 50px;
+	float: left;
+	width: 530px;
+	height: 270px;
+	left: 100px;
+	background-color: rgba(34, 48, 61 ,0.7);
+  position: relative;
+  transition: filter, transform 4s;
+  border-radius: 20px;
+}
+
+
+.icone-box1{
+  padding: 0 2%;
+  width: 0;
+  left: -40px;
+  position: absolute;
+  margin-right: 500px;
+  margin-left: 300px;
+  margin-top: 100px; 
+  
+ }
+
+ .icone1{
+  margin-bottom: 800px;
+ margin-left: -30px;
+ color: #FFFFFF;
+}
+
+.icone1:hover{
+  transition: 1s;
+  color: #005DFC;
+}
+
+.icone-box2{
+  padding: 0 2%;
+  width: 0;
+  left: -40px;
+  position: absolute;
+  margin-right: 500px;
+  margin-left: 590px;
+  margin-top: 100px;
+
+}
+
+.icone2{
+ margin-left: -30px;
+ color: #FFFFFF;
+
+}
+
+.icone2:hover{
+  transition: 1s;
+  color: #7600A8;
+}
+
+.icone-box3{
+  padding: 0 2%;
+  width: 0;
+  left: -40px;
+  position: absolute;
+  margin-right: 500px;
+  margin-left: 600px;
+  margin-top: 250px;
+
+}
+
+.icone3{
+ margin-left: -30px;
+ color: #FFFFFF;
+
+}
+
+.icone3:hover{
+  transition: 1s;
+  color: #FC6500;
+}
+
+.icone-box4{
+  padding: 0 2%;
+  width: 10px;
+  left: -40px;
+  position: absolute;
+  margin-right: 500px;
+  margin-left: 300px;
+  margin-top: 250px;
+ 
+}
+
+.icone4{
+ margin-left: -30px;
+ color: #FFFFFF;
+
+}
+
+.icone4:hover{
+  transition: 1s;
+  color: #FC6500;
+}
+*/
+
+/* card */
+
+.contem{ 
+  min-width: 1200px;
+}
+.card{
+  padding: 20px;
+  margin-top: -50px;
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+  width: 100px;
+  height: 60px;
+  background-color: #43646B;
+  border-radius: 20px;
+  box-shadow: 10px 10px burlywood;
+  transition: 2s all ease;
+  flex: 1;
+ text-align: center;
+ color: #21EDED;
+text-decoration: none;
+}
+
+.card:hover{
+	width: 130px;
+  height: 60px;
+  flex: 2;
+  box-shadow: -10px 10px 10px 0px rgba(177, 217, 20,0.7);
+  background-color: #7B4BBF;
+  color: #FAF600;
+}
+
+
+.container2{
+	
+	background-size: cover;
+	margin-top: -80px;
+	padding: 60px 80px 30px 30px;
+	 background-image: linear-gradient(#08000A,#322145,#01458C);
+	text-align: center;
+}
+
+.container2 h2{
+	color: #05D3E6;
+	margin-top: 120px;
+	font-weight: normal;
+}
+
+.container2 p{
+	color: #05D3E6;
+	margin: 30px 0;
+	width: 100%;
+	max-width: 768px;
+	display: inline-block;
+}
+
+.arrow{
+	position: relative;
+	top: 60px;
+	left: 50%;
+	margin-left: -20px;
+	width: 70px;
+	height: 70px;
+	background-image: url('../imagens/escudo.png');
+	background-size: 100% 100%;
+}
+
+
+.section1{
+	
+	padding: 90px 2%;
+}
+
+.section1 h2{
+	text-align: center;
+	color: #50C7C7;
+	font-weight: normal;
+}
+
+
+.container-section{
+	margin-top: 40px;
+}
+
+.container-section{
+	text-align: center;
+}
+
+.container-single{
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+
+}
+
+.container-single p{
+	display: inline-block;
+	text-align: justify;
+	padding: 30px 15px;
+}
+
+
+.footer{
+	border-top: 4px solid #888888;
+	padding: 30px 0;
+  text-align: center;
+  color: #888;
+}
+
+.footer p{
+	margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px){
+	.header{
+		height: auto;
+		width: 100%;
+		padding: 15px 0%;
+        text-align: center;
+	}
+	.header img{
+		margin: 0;
+	}
+	.conteiner-banner{
+		width: 100%;
+		padding:40px 2%;
+		height: auto;
+		text-align: center;
+	}
+	.form{
+		margin-top: 30px;
+		max-width: 400px;
+		padding: 20px;
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		float: none;
+		position: relative;
+		top: 0;
+		
+	}
+	.container-list{
+		cursor: pointer;
+		padding:100px 0;
+		margin-left: 50px;
+		float: none;
+		width: 100%;
+		margin-top: 0;
+		left: -20px;
+		display: inline-block;
+		max-width: 500px;
+		height: auto;
+	  }
+	  .icone-box1{
+	  padding: 8px 2%;
+	  width: 90%;
+	  top: 123px;
+	  left: -399px;
+	  float: none;
+	  display: inline-block;
+	 }
+	 .icone-box2{
+		padding: 8px 2%;
+		width: 90%;
+		top: 125px;
+		left: -399px;
+		float: none;
+		display: inline-block;
+	   }
+	   .icone-box3{
+		padding: -100px 2%;
+		top: -120px;
+		width: 90%;
+		left: -399px;
+		float: none;
+		display: inline-block;
+
+	   }
+	   .icone-box4{
+		padding: -100px 2%;
+		top: -120px;
+		width: 90%;
+		left: -399px;
+		float: none;
+		display: inline-block;
+	   }
+	   .card{ 
+		top: -20px;
+		margin: auto;
+		left: 50px;
+		padding: 10px 0;
+        display: inline-block;
+        width: 100px;
+        height: 60px;
+	  }
+	
+}
